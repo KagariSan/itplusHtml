@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form CheckIn</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/diemdanh?fbclid=IwAR27CzwgRF0yqbZVUgiFw4Rg3GA-IbSD2dojEc_6TXqMoJQWVKhc_Tb63YM" method="post">
+        <label for="">Ten</label> 
+        <input required type="text" name="Ten" id="name-input" class="input-red background-yellow"> 
+        <label style="color: black;" for="" class="hover-red">Mssv</label>
+        <input required type="number" maxlength="20" minlength="1" name="MSSV">
+        <label id="label-mabimat" for="">Ma bi mat</label>
+        <input required type="number" name="MaBiMat" min="99" max="1000">
+        <label class="label-email" for="">Email</label>
+        <input required type="email" name="Email">
+        <label for="">Phone</label>
+        <input type="tel" maxlength="12" name="Phone">
+        <div style="width: 100%;">
+        <label for="">HTML</label>
+        </div>
+        <textarea required name="HTML" id="" cols="30" rows="10"></textarea>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+   
+</body>
+</html>
+

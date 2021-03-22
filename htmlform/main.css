@@ -1,0 +1,36 @@
+
+#label-mabimat {
+    color: black;
+}
+.label-email {
+    color: black;
+}
+
+form {
+    margin:  0 100px;
+    border: 2px solid red;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+textarea {
+    width: 100%;
+}
+
+label {
+    color: yellow;
+}
+label {
+    color: red;
+    margin-top: 5px;
+    width: 100vw;
+}
+input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[required] + label::after {
+    content: "*";
+    color: red;
+}
